@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-photo"></i> PORTFOLIO</a>
+    <a href="#java" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-code"></i> JAVA</a>
+    <a href="#api" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-folder"></i> API</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#java" class="w3-bar-item w3-button" onclick="toggleFunction()">JAVA</a>
+    <a href="#api" class="w3-bar-item w3-button" onclick="toggleFunction()">API</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p>I am an individual driven by a fervent enthusiasm for gaining diverse experiences and continuously expanding my knowledge horizons. Eager to delve into new challenges, 
+    I am always seeking opportunities to learn, grow, and contribute positively. My mindset is geared towards embracing experiences that offer 
+    learning opportunities, allowing me to adapt and evolve both personally and professionally.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Phuwadon Ngocharit</b></p><br>
+      <img src="409469720_371311142223942_8717195723202786932_n (1).jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="250" height="444">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Hello everyone! Welcome to my portfolio! I am Phuwadon, a student passionate about web design and developing web design skills. 
+        I have the ability to create remarkable user experiences and adeptly use various tools. In the future, I am dedicated to developing skills and knowledge for 
+        the benefit of companies. I am enthusiastic about learning and creating valuable work. Thank you for the opportunity to showcase my work and abilities. 
+        I hope this portfolio will impress and inspire all of you. Thank you so much for visiting my portfolio!</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-file"></i>CSS</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:80%">80%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>HTML</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-code"></i>JAVA</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+  
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">MY WORK</h3>
+  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="353678172_6635686059808900_9138358685736885293_n.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pexels-gabriela-mendes-1249074.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pexels-jaime-reimer-2662116.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pexels-lukas-kloeppel-2416649.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="pexels-nextvoyage-916998.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pexels-roberto-nickson-2864763.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pexels-eberhard-grossgasteiger-568242.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="pexels-ketan-kumawat-724963.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<div class="bgimg-8 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">JAVA</span>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">JAVA</span>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="java">
+  <h3 class="w3-center"></h3>
+  <div class="card">
+    <h2>แปลงวันเป็นวินาที </h2>
+    <label for="daysInput">ป้อนจำนวนวัน</label>
+<input type="number" id="daysInput" placeholder="">
+<button onclick="convertDaysToSeconds()">คำนวณ</button>
+<p id="resident"></p>
+    <hr>
+      <p>
+          <label for="inputText">ก่อนแปลง: </label>
+          <input type="text" id="inputText">
+          <button onclick="showModifiedString()">แปลง</button>
+        </p>
+        <p>หลังแปลง = <span id="modifiedString" class="output-box"></span></p>
+    <hr>
+    <h2>สุ่มตัวเลขลูกเต๋า</h2>
+    <button onclick="rollDice()">ทอยลูกเต๋า</button>
+    <p id="diceResult">ผลลัพธ์การทอย: </p>
+
+  <hr>
+  <h2>คำนวณแต้มจากยอดซื้อขายโดยเฉพาะทุกยอดซื้อ100บาทจะได้1แต้ม</h2>
+  <input type="number" id="newTotalSales" placeholder="">
+  <p >ยอดซื้อขาย: <span id="totalSales">500</span> บาท</p>
+  <p>จำนวนแต้มที่ได้: <span id="loyaltyPoints"></span> แต้ม</p>
+  <button onclick="updatePoints()">คำนวณแต้ม</button>
+  
+  <hr>
+  <h2>หาความยาวเส้นรอบวงของวงกลม</h2>
+  <label for="radiusInput">ป้อนรัศมีของวงกลม:</label>
+<input type="number" id="radiusInput" placeholder="">
+<button onclick="calculateCircumference()">คำนวณ</button>
+<p id="regame"></p>
+  <hr>
+</div>
+  <script>
+  
+  function myFunction2() {
+    let x = document.getElementById("numb").value;
+    let text;
+    if (isNaN(x) || x < 1 || x > 10) {
+      text = "Input not valid";
+    } else {
+      text = "Input OK";
+    }
+    document.getElementById("demo3").innerHTML = text;
+  }
+  function ucFirst(str) {
+    if (!str) return str;
+    const modifiedStr = str.charAt(0).toUpperCase() + str.slice(1);
+    return modifiedStr;
+  }
+
+  function ucFirst(str) {
+    if (!str) return str;
+    const modifiedStr = str.charAt(0).toUpperCase() + str.slice(1);
+    return modifiedStr;
+  }
+  function showModifiedString() {
+    const inputText = document.getElementById("inputText").value;
+    const modifiedString = ucFirst(inputText);
+
+    document.getElementById("modifiedString").innerText = modifiedString;
+  }
+  function rollDice() {
+    const diceNumber = Math.floor(Math.random() * 6) + 1;
+    document.getElementById('diceResult').innerText = `ผลลัพธ์การทอย: ${diceNumber}`;
+  }
+
+  function updatePoints() {
+    const newTotalSalesInput = document.getElementById("newTotalSales");
+    const totalSalesElement = document.getElementById("totalSales");
+    const loyaltyPointsElement = document.getElementById("loyaltyPoints");
+    const circleLengthElement = document.getElementById("circleLength");
+
+    const newTotalSales = parseFloat(newTotalSalesInput.value);
+
+    if (!isNaN(newTotalSales)) {
+      const newPoints = calculateLoyaltyPoints(newTotalSales);
+
+      totalSalesElement.textContent = newTotalSales.toFixed(2);
+      loyaltyPointsElement.textContent = newPoints;
+
+      const radiusForExample = 5;
+      const circleLength = calculateCircleLength(radiusForExample);
+      circleLengthElement.textContent = circleLength.toFixed(2);
+    } else {
+      alert("โปรดกรอกตัวเลขที่ถูกต้อง");
+    }
+  }
+
+  function calculateCircleLength(radius) {
+    const PI = Math.PI;
+    const circleLength = PI * 2 * radius;
+    return circleLength;
+  }
+  const initialTotalSales = 100;
+  const initialLoyaltyPoints = calculateLoyaltyPoints(initialTotalSales);
+  document.getElementById("totalSales").textContent = initialTotalSales.toFixed(2);
+  document.getElementById("loyaltyPoints").textContent = initialLoyaltyPoints;
+  const radiusForExample = 5;
+  const initialCircleLength = calculateCircleLength(radiusForExample);
+  document.getElementById("circleLength").textContent = initialCircleLength.toFixed(2);
+  
+  function calculateCircumference() {
+    const radiusInput = document.getElementById('radiusInput');
+    const resultElement = document.getElementById('regame');
+
+    const radius = parseFloat(radiusInput.value);
+
+    if (!isNaN(radius)) {
+      const circumference = 2 * Math.PI * radius;
+      resultElement.textContent = "ความยาวเส้นรอบวงของวงกลม: " + circumference.toFixed(2);
+    } else {
+      resultElement.textContent = 'โปรดป้อนรัศมีที่ถูกต้อง';
+    }
+  }
+  function daysToSeconds(days) {
+    const secondsInADay = 24 * 60 * 60;
+    const seconds = days * secondsInADay;
+    return seconds;
+  }
+
+  function convertDaysToSeconds() {
+    const daysInput = document.getElementById('daysInput');
+    const resultElement = document.getElementById('resident');
+
+    const days = parseFloat(daysInput.value);
+
+    if (!isNaN(days)) {
+      const seconds = daysToSeconds(days);
+      resultElement.textContent = `${days} วัน เท่ากับ ${seconds} วินาที`;
+    } else {
+      resultElement.textContent = 'โปรดป้อนจำนวนวันที่ถูกต้อง';
+    }
+  }
+  </script>   
+       <div>
+        <canvas id="myChart1" style="width:100%;max-width:600px"></canvas>
+  <script>
+    const xValues1 = ["Italy", "France", "Spain", "USA", "Argentina"];
+    const yValues2 = [55, 49, 44, 24, 15];
+    const barColors3 = ["red", "green","blue","orange","brown"];
+    
+    new Chart("myChart1", {
+      type: "bar",
+      data: {
+        labels: xValues1,
+        datasets: [{
+          backgroundColor: barColors3,
+          data: yValues2
+        }]
+      },
+      options: {
+        legend: {display: false},
+        title: {
+          display: true,
+          text: "World Wine Production 2018"
+        }
+      }
+    });
+    </script>
+  <hr>
+  
+  <canvas id="myChart2" style="width:100%;max-width:600px"></canvas>
+
+<script>
+const xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+const yValues = [55, 49, 44, 24, 15];
+const barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart2", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "World Wide Wine Production 2018"
+    }
+  }
+});
+</script>
+</div>
+</div>
+<div class="bgimg-8 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">API</span>
+  </div>
+</div>
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">API</span>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="api">
+  <h3 class="w3-center"></h3>
+</div>
+ื<nav>
+<form  
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbxKxsfZ8FVLhMhaKgWtfjtBnfkOr13Ejz1SY3EXE4z_ux6uxgRB80xgFXLc4VpqVydd/exec"
+>
+<input name="Email" type="email" placeholder="Email" required>
+  <input name="Name" type="text" placeholder="Name" required>
+  <button class="submit-button" type="submit">ยืนยัน</button>
+</form>
+<iframe width="60%" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vS6UNLwkfVpGMTShvYvEVAmnzwJgcbdlruCF9GkJiTZZRb1VvYRg9Quuc3ZnE-xNuAFjsaIalyJGHsh/pubhtml?gid=0&single=true"></iframe>
+<hr>
+
+  <h2 class="w3-center class="content">Click to get a Random Image</h2>
+        <img  id="randomImage" src="https://source.unsplash.com/random/300x300" alt="Random Image">
+        <button onclick="getRandomImage()">Get Random Image</button>
+
+   <hr>
+   <h2 class="w3-center class="content">Click to get a Random Country Name</h2>
+  <p  id="randomCountry">Country name will appear here</p>
+ <button onclick="getRandomCountry()">Get Random Country</button>
+    <hr>
+ <h2 class="w3-center class="content">Coinbase API Demo</h2>
+ <div id="lastUpdateTime"></div>
+ <div id="prices"></div>
+    </div> 
+        <script class="w3-center class="content">
+          function getRandomImage() {
+      const randomNumber = Math.floor(Math.random() * 100); 
+      const randomImageUrl = `https://source.unsplash.com/300x300/?random&${randomNumber}`; 
+      document.getElementById("randomImage").src = randomImageUrl;
+    }
+ function getRandomCountry() {
+      fetch("https://restcountries.com/v3.1/all")
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          const randomIndex = Math.floor(Math.random() * data.length);
+          const randomCountry = data[randomIndex].name.common;
+
+          document.getElementById("randomCountry").textContent = `Random Country: ${randomCountry}`;
+        })
+        .catch(function(error) {
+          console.log("Error fetching country data:", error);
+        });
+    }
+
+  function fetchPrices() {
+      var now = new Date();
+      var currentTime = now.toLocaleTimeString();
+
+      fetch('https://api.coinbase.com/v2/exchange-rates?currency=USDT')
+          .then(response => response.json())
+          .then(data => {
+              displayPrices(data);
+              displayLastUpdateTime(currentTime);
+          })
+          .catch(error => {
+              console.error('Error fetching data:', error);
+              alert('Error fetching data. Please try again.');
+          });
+  }
+ 
+ 
+  
+  function displayPrices(data) {
+      var pricesDiv = document.getElementById('prices');
+      var rates = data.data.rates;
+
+      var currencies = ['BTC', 'ETH', 'XRP', 'LTC', 'DOGE', 'BCH', 'BNB', 'LINK', 'XLM'];
+      var pricesHtml = '<p>1 USDT can buy:</p><ul>';
+
+      currencies.forEach(currency => {
+          if (rates[currency]) {
+              pricesHtml += `<li>${currency}: ${rates[currency]}</li>`;
+          } else {
+              pricesHtml += `<li>${currency}: N/A</li>`;
+          }
+      });
+
+      pricesHtml += '</ul>';
+      pricesDiv.innerHTML = pricesHtml;
+  }
+
+  function displayLastUpdateTime(currentTime) {
+      var updateTimeDiv = document.getElementById('lastUpdateTime');
+      updateTimeDiv.innerHTML = `<p>Last Update Time: ${currentTime}</p>`;
+  }
+
+  fetchPrices();
+
+  setInterval(fetchPrices, 3000);
+
+
+  </script>
+</nav>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE I WORK</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="0690cdf8-998d-4d7b-addd-dadd7a656876.png" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Maha Sarakham, TH<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +66 969495505<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: enzoderkord@gmail.com<br>
+      </div>
+      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

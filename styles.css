@@ -1,0 +1,62 @@
+html
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+body::-webkit-scrollbar {
+  width: 0; 
+}
+.w3-bar{
+  color: #f9f9f9;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-8 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url(stretched-1920-1080-1339874.png);
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+.card {
+    /* border: 1px solid #650ec18b; */
+    border-radius: 100%;
+    padding: 30px;
+    max-width: 100%;
+    margin: 30px auto; /* เพิ่ม margin เพื่อย้ายการ์ดลงข้างล่างอีก */
+    /* background-color: #f9f9f9; */
+    font-family: Arial, sans-serif;
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลาง */
+    margin-top: 10px; /* เพิ่มระยะห่างด้านบน */
+    margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
+    
+  }
+  
+
+.bgimg-3 {
+  background-image: url(stretched-1920-1080-1339874.png);
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
